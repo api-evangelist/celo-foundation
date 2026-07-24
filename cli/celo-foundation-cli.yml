@@ -1,0 +1,28 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@celo/celocli
+cli:
+  name: celocli
+  package: "@celo/celocli"
+  version: 9.0.1
+  binary: celocli
+  install:
+  - npm install -g @celo/celocli
+  docs: https://docs.celo.org/cli
+  repository: https://github.com/celo-org/developer-tooling
+  description: First-party command-line interface for interacting with the Celo protocol — accounts, transactions, governance, validators, exchange, and network operations.
+  command_groups:
+  - account
+  - config
+  - dkg
+  - election
+  - exchange
+  - governance
+  - identity
+  - lockedgold
+  - network
+  - node
+  - releasegold
+  - transfer
+  - validator
+  - validatorgroup

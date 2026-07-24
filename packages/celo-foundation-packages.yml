@@ -1,0 +1,87 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/celo (celo-org / github.com/celo-org/developer-tooling)
+packages:
+- language: javascript
+  registry: npm
+  name: "@celo/contractkit"
+  version: 11.0.0
+  url: https://www.npmjs.com/package/@celo/contractkit
+  install: npm install @celo/contractkit
+  description: Celo's ContractKit to interact with Celo network
+  repository: https://github.com/celo-org/developer-tooling
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/connect"
+  version: 8.0.0
+  url: https://www.npmjs.com/package/@celo/connect
+  install: npm install @celo/connect
+  description: Light toolkit for connecting with the Celo network
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/celocli"
+  version: 9.0.1
+  url: https://www.npmjs.com/package/@celo/celocli
+  install: npm install -g @celo/celocli
+  description: CLI tool for interacting with the Celo protocol
+  bin: celocli
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/actions"
+  version: 0.2.2
+  url: https://www.npmjs.com/package/@celo/actions
+  install: npm install @celo/actions
+  description: Celo actions for use with Viem
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/abis"
+  version: 17.0.4
+  url: https://www.npmjs.com/package/@celo/abis
+  install: npm install @celo/abis
+  description: Smart contract ABIs for the Celo protocol
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/identity"
+  version: 5.1.2
+  url: https://www.npmjs.com/package/@celo/identity
+  install: npm install @celo/identity
+  description: Utilities for interacting with Celo's identity protocol
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/wallet-base"
+  version: 8.0.4
+  url: https://www.npmjs.com/package/@celo/wallet-base
+  install: npm install @celo/wallet-base
+  description: Wallet base implementation
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/utils"
+  version: 8.0.3
+  url: https://www.npmjs.com/package/@celo/utils
+  install: npm install @celo/utils
+  description: Celo common utils
+  official: true
+- language: javascript
+  registry: npm
+  name: "@celo/rainbowkit-celo"
+  version: 1.2.1
+  url: https://www.npmjs.com/package/@celo/rainbowkit-celo
+  install: npm install @celo/rainbowkit-celo
+  description: Quickly set up RainbowKit for Celo
+  official: true
+- language: python
+  registry: pypi
+  name: celo-mcp
+  version: 0.3.2
+  url: https://pypi.org/project/celo-mcp/
+  install: pipx install celo-mcp
+  description: Model Context Protocol server for Celo blockchain data access (documented on docs.celo.org)
+  repository: https://github.com/viral-sangani/celo-mcp
+  official: false

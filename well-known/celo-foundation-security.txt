@@ -1,0 +1,7 @@
+Canonical: https://celo.org/.well-known/security.txt
+Contact: mailto:security.reports@clabs.co
+Encryption: https://keys.openpgp.org/search?q=D2174A7CD2BB4846
+Expires: 2025-12-31T23:59:00Z
+Hiring: https://celo.org/careers
+Policy: https://r.xyz/program/clabs-celo
+Preferred-Languages: en

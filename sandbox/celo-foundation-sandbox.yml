@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://faucet.celo.org
+sandbox:
+  description: Celo provides public test networks for development. The Alfajores testnet is the developer/staging network; a token faucet dispenses free test CELO and stablecoins for building and testing.
+  test_networks:
+  - name: Alfajores (testnet)
+    faucet: https://faucet.celo.org
+    docs: https://docs.celo.org/network/alfajores
+  - name: Baklava (validator staging testnet)
+    docs: https://docs.celo.org/network/baklava
+  faucet: https://faucet.celo.org
+  quickstart: https://docs.celo.org/build-on-celo/quickstart
+  notes: Test-vs-live separation is by network (testnet vs mainnet RPC endpoint / chain ID); no card or key prefixes apply. Never use mainnet keys against testnet.

@@ -1,8 +1,28 @@
 aid: celo-foundation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/celo-foundation.png
 name: Celo Foundation
-description: 'Celo Foundation is a company surfaced as a portfolio company of polychain and added to the
-  API Evangelist network as a stub for enrichment. Sector: layer-1. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Celo is an Ethereum Layer 2 blockchain built for real-world payments and
+  financial inclusion, offering sub-cent transaction fees, one-second block
+  times, native stablecoins, and the ability to pay gas in ERC-20 tokens such as
+  USDC and USDT. The Celo Foundation is the nonprofit stewarding the protocol and
+  its ecosystem. Developers build on Celo with EVM-compatible tooling: the
+  ContractKit and Connect JavaScript SDKs, the celocli command-line interface,
+  a documented Model Context Protocol (MCP) server for AI agents, ethers.js/viem
+  support, Hardhat/Foundry environments, the Alfajores testnet with a public
+  faucet, and MiniPay mobile-wallet integrations. This profile was seeded as a
+  polychain portfolio lead and enriched from Celo's public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/celo-foundation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Layer 1
+- Blockchain
+- Web3
+- Stablecoins
+- Payments
+- DeFi
+- Ethereum L2
+- Financial Inclusion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,48 @@ maintainers:
 common:
 - type: Website
   url: https://celo.org
+- type: DeveloperPortal
+  url: https://docs.celo.org
+- type: Documentation
+  url: https://docs.celo.org
+- type: GettingStarted
+  url: https://docs.celo.org/build-on-celo/quickstart
+- type: GitHubOrganization
+  url: https://github.com/celo-org
+- type: Blog
+  url: https://blog.celo.org
+- type: Support
+  url: https://forum.celo.org
+- type: TermsOfService
+  url: https://celo.org/terms-of-use
+- type: PrivacyPolicy
+  url: https://celo.org/privacy-policy
+- type: Whitepaper
+  url: https://celo.org/papers
+- type: Packages
+  url: packages/celo-foundation-packages.yml
+- type: SDKs
+  url: packages/celo-foundation-packages.yml
+- type: CLI
+  url: cli/celo-foundation-cli.yml
+- type: MCPServer
+  url: mcp/celo-foundation-mcp.yml
+- type: Sandbox
+  url: sandbox/celo-foundation-sandbox.yml
+- type: LLMsTxt
+  url: llms/celo-foundation-llms.txt
+- type: WellKnown
+  url: well-known/celo-foundation-well-known.yml
+- type: SecurityTxt
+  url: well-known/celo-foundation-security.txt
+- type: DomainSecurity
+  url: security/celo-foundation-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/celo-foundation-vulnerability-disclosure.yml
+- type: Security
+  url: https://r.xyz/program/clabs-celo
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
