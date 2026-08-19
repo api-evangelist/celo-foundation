@@ -12,21 +12,45 @@ server:
   repository: https://github.com/viral-sangani/celo-mcp
   official: false
   documented_by: https://docs.celo.org/build-on-celo/build-with-ai/mcp/celo-mcp
-  description: Model Context Protocol server providing access to the Celo blockchain — blockchain data, token operations, NFTs, smart contracts, transactions, and governance. Documented in Celo's official developer docs.
+  description: Model Context Protocol server providing access to the Celo blockchain — blockchain data,
+    token operations, NFTs, smart contracts, transactions, and governance. Documented in Celo's official
+    developer docs.
 tools:
-- {name: get_network_status, description: Get current Celo network status}
-- {name: get_block, description: Get a block by number or hash}
-- {name: get_latest_blocks, description: Get the most recent blocks}
-- {name: get_account, description: Get account information}
-- {name: get_transaction, description: Get a transaction by hash}
-- {name: get_token_info, description: Get token metadata}
-- {name: get_token_balance, description: Get token balance for an address}
-- {name: get_celo_balances, description: Get CELO/stablecoin balances}
-- {name: get_nft_info, description: Get NFT metadata}
-- {name: get_nft_balance, description: Get NFT balance for an address}
-- {name: call_contract_function, description: Call a read-only smart contract function}
-- {name: estimate_contract_gas, description: Estimate gas for a contract call}
-- {name: estimate_transaction, description: Estimate a transaction}
-- {name: get_gas_fee_data, description: Get current gas fee data}
-- {name: get_governance_proposals, description: List Celo governance proposals}
-- {name: get_proposal_details, description: Get details for a governance proposal}
+- name: get_network_status
+  description: Get current Celo network status
+- name: get_block
+  description: Get a block by number or hash
+- name: get_latest_blocks
+  description: Get the most recent blocks
+- name: get_account
+  description: Get account information
+- name: get_transaction
+  description: Get a transaction by hash
+- name: get_token_info
+  description: Get token metadata
+- name: get_token_balance
+  description: Get token balance for an address
+- name: get_celo_balances
+  description: Get CELO/stablecoin balances
+- name: get_nft_info
+  description: Get NFT metadata
+- name: get_nft_balance
+  description: Get NFT balance for an address
+- name: call_contract_function
+  description: Call a read-only smart contract function
+- name: estimate_contract_gas
+  description: Estimate gas for a contract call
+- name: estimate_transaction
+  description: Estimate a transaction
+- name: get_gas_fee_data
+  description: Get current gas fee data
+- name: get_governance_proposals
+  description: List Celo governance proposals
+- name: get_proposal_details
+  description: Get details for a governance proposal
+deployment:
+  mode: local-stdio
+  verified: searched
+  tools: 16
+  checked: '2026-08-12'
+  source: catalog MCP census
